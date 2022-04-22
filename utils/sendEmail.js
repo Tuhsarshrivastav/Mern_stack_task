@@ -8,7 +8,7 @@ const nodemailerFucntion = (email, subject, text) => {
     secure: false,
     auth: {
       user: "ts3657@gmail.com",
-      pass: "",
+      pass: "07690240433",
     },
   });
 
