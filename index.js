@@ -9,10 +9,6 @@ const authRoutes = require("./routes/auth");
 // database connection
 connection();
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
-
 // middlewares
 app.use(express.json());
 app.use(cors());
